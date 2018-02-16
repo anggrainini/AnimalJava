@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Instruction"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_marginStart="120dp"
+            android:layout_marginTop="20dp"
+            android:text="Instruction"
+            android:textColor="@color/colorPrimary"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="478dp"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:layout_marginStart="20dp"
+            android:text=" 1. Jawab 5 Pertanyaan dalam Quiz.&#xA;&#xA;
+2. Jika benar menjawab akan mendapat nilai 1 dan salah nilai 0. Maksimum Score adalah 5 &#xA;&#xA;
+3. Jika sudah menyerah, kamu bisa lihat hint nya di Menu Awal.&#xA;&#xA;
+4. Soal bentuk RadioButton hanya memiliki 1 jawaban&#xA;&#xA;
+5. Soal bentuk Checkbox bisa memiliki lebih dari 1 jawaban.&#xA;&#xA;
+6. Soal bentuk Isian dapat kamu isi dengan huruf kecil, depan huruf besar, atau huruf besar semua&#xA;&#xA;
+Contoh : Precil, precil, PRECIL &#xA;&#xA;&#xA;
+Selamat Menjawab!! :)
+" />
+    </LinearLayout>
+
+</ScrollView>

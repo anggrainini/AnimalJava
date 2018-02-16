@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:text="Hint"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="140dp"
+            android:textColor="@color/colorPrimary"
+            android:textStyle="bold"
+            android:textSize="30sp"/>
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:textSize="16dp"
+            android:layout_marginStart="20dp"
+            android:text=" 1. Anak ampal jenenge embug.&#xA;
+2. Anak angrang jenenge kroto.&#xA;
+3. Anak asu jenenge kirik.&#xA;
+4. Anak babi jenenge gembluk.&#xA;
+5. Anak bandeng jenenge nener.&#xA;
+6. Anak bantheng jenenge wareng.&#xA;
+7. Anak banyak jenenge blengur.&#xA;
+8. Anak baya jenenge krete.&#xA;
+9. Anak bebek jenenge meri.&#xA;
+10. Anak bethik jenenge menter.&#xA;
+11. Anak blanak jenenge sendha.&#xA;
+12. Anak brati jenenge tongki.&#xA;
+13. Anak budheng/munyuk jenenge kowe.&#xA;
+14. Anak bulus jenenge ketul.&#xA;
+15. Anak cacing jenenge lur.&#xA;
+16. Anak cecak jenenge sawiyah.&#xA;
+17. Anak celeng jenenge genjik.&#xA;
+18. Anak coro jenenge mendhet.&#xA;
+19. Anak dara jenenge piyik.&#xA;
+20. Anak dhorang jenenge tamper.&#xA;
+21. Anak emprit jenenge indhil.&#xA;
+22. Anak gagak jenenge engkak.&#xA;
+23. Anak gajah jenenge bledug.&#xA;
+24. Anak gangsir jenenge clondho.&#xA;
+25. Anak garangan jenenge rase.&#xA;
+26. Anak garengpung jenenge drungkuk.&#xA;
+27. Anak gemak jenenge drigul.&#xA;
+28. Anak glatik jenenge cecrekan.&#xA;
+29. Anak gundik jenenge laron/rayap.&#xA;
+30. Anak iwak jenenge beyong.&#xA;
+31. Anak jangkrik jenenge cendholo.&#xA;
+32. Anak jaran jenenge belo.&#xA;
+33. Anak kadal jenenge tobil.&#xA;
+34. Anak kakap jenenge caplek.&#xA;
+35. Anak kalajengking jenenge ketupa.&#xA;
+36. Anak kancil jenenge kenthi.&#xA;
+37. Anak kebo jenenge gudel.&#xA;
+38. Anak kecapung jenenge jenthit.&#xA;
+39. Anak kemangga jenenge ceriwi.&#xA;
+40. Anak kepik jenenge mreki.&#xA;
+41. Anak kidang jenenge kompreng.&#xA;
+42. Anak kimar jenenge kedah.&#xA;
+43. Anak kinjeng jenenge senggutru.&#xA;
+44. Anak kinjeng dom jenenge undur-undur.&#xA;
+45. Anak kintel jenenge kenthus.&#xA;
+46. Anak kethek jenenge kenyung.&#xA;
+47. Anak kodhok jenenge precil.&#xA;
+48. Anak kumbang jenenge engkuk.&#xA;
+49. Anak kunang jenenge endrak.&#xA;
+50. Anak kremi jenenge racek.&#xA;
+51. Anak kucing jenenge cemeng.&#xA;
+52. Anak keong/kul jenenge krikik.&#xA;
+53. Anak kupu jenenge enthung/uler.&#xA;
+54. Anak kura jenenge laos.&#xA;
+55. Anak kutuk jenenge koncelan/kotesan.&#xA;
+56. Anak kwangwung jenenge gendhot.&#xA;
+57. Anak laler jenenge singgat/set.&#xA;
+58. Anak lamuk/nyamuk jenenge jenthik.&#xA;
+59. Anak lawa jenenge kampret.&#xA;
+60. Anak lele jenenge jabrisan.&#xA;
+61. Anak lemut jenenge uget-uget.&#xA;
+62. Anak lintah jenenge pacet.&#xA;
+63. Anak lisang jenenge beles.&#xA;
+64. Anak lodan jenenge jengkelong.&#xA;
+65. Anak lutung jenenge kenyung.&#xA;
+66. Anak luwak jenenge kuwuk.&#xA;
+67. Anak luwing jenenge gonggo.&#xA;
+68. Anak macan jenenge gogor.&#xA;
+69. Anak manuk jenenge piyik.&#xA;
+70. Anak menjangan jenenge kompreng.&#xA;
+71. Anak menthok jenenge minthi.&#xA;
+72. Anak merak jenenge uncung.&#xA;
+73. Anak nyambik jenenge slira.&#xA;
+74. Anak pe jenenge genyong.&#xA;
+75. Anak pleting jenenge jaringan.&#xA;
+76. Anak pitik jenenge kuthuk.&#xA;
+77. Anak sapi jenenge pedhet.&#xA;
+78. Anak sembilang jenenge lenger.&#xA;
+79. Anak singa jenenge dibal.&#xA;
+80. Anak tawon jenenge gana.&#xA;
+81. Anak tekek jenenge celolo.&#xA;
+82. Anak tombro jenenge bokol.&#xA;
+83. Anak tikus jenenge cindhil.&#xA;
+84. Anak tuma jenenge kor.&#xA;
+85. Anak tongkol jenenge cekethik/cengkik.&#xA;
+86. Anak ula jenenge ucet/kisi.&#xA;
+87. Anak urang jenenge grago.&#xA;
+88. Anak wedhus jenenge cempe.&#xA;
+89. Anak wader jenenge sriwet.&#xA;
+90. Anak welut jenenge udhet.&#xA;
+91. Anak wagal jenenge jendhil.&#xA;
+92. Anak walang jenenge dhogol.&#xA;
+93. Anak warak jenenge plencing.&#xA;
+94. Anak yuyu jenenge beyes.&#xA;
+" />
+    </LinearLayout>
+
+</ScrollView>
